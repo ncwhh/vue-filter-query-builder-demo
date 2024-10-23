@@ -34,7 +34,7 @@ function check(m) {
   <div class="container">
     <div class="item">
       <span class="header">Filter Query Builder</span>
-      <Builder class="scrollable" :model="model" />
+      <Builder class="scrollable" :model="model"/>
     </div>
     <div class="item">
       <span class="header">Live Output Preview</span>
