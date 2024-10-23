@@ -1,0 +1,30 @@
+{
+    "combinator": "AND",
+    "rules": [
+      {
+        "field": "birth_date",
+        "operator": ">",
+        "value": "1990-01-01"
+      },
+      {
+        "combinator": "OR",
+        "rules": [
+          { 
+            "field": "name",
+            "operator": "contains",
+            "value": "Müller"
+          },
+          {
+            "field": "name",
+            "operator": "contains",
+            "value": "Schmidt"
+          }
+        ]
+      },
+      {
+        "field": "salary",
+        "operator": ">",
+        "value": 5000
+      }
+    ]
+  }

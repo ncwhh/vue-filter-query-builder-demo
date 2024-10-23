@@ -1,0 +1,29 @@
+{
+    "name": {
+        "display_name": "Name",
+        "type": "string"
+    },
+    "birth_date": {
+        "display_name": "Birth Date",
+        "type": "date"
+    },
+    "salary": {
+        "display_name": "Salary",
+        "type": "number"
+    },
+    "department": {
+        "display_name": "Department",
+        "type": "enum",
+        "values": [
+            "HR",
+            "Engineering",
+            "Finance",
+            "Marketing",
+            "Sales"
+        ]
+    },
+    "works_remote": {
+        "display_name": "Works Remote",
+        "type": "boolean"
+    }
+}
